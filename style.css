@@ -1,21 +1,30 @@
-body {background-color: rgb(231, 140, 83);}
+body{
+  background-color:rgb(195, 119, 75);}
 
-.head{ color: darkblue;}
+.head{
+  color:darkblue;}
 
-#bglime{background-color: rgb(144, 203, 144);}
-p2{color:red}
+#bglime{
+  background-color:limegreen;
+  font-size: 40px;}
 
-p{color: white;
-  font-size: 20px;}
+#bglime span{color:red;}
 
-#para{color: green;
-      font-size: 10px;}
+p{color:white;}
 
-p4{color:black;
-   font-size: 30px}
+#para{color:green ;
+      }
 
-p5{background-color:yellow;}
-p6{background-color: purple;}
+main section p span{color:black; font-size: 40px;}
 
-p7{color:red;}
-p8{color:blue;}
+hr{color:black; border-style:dashed; opacity:0.07;}
+
+ul:first-of-type li:first-child a {
+    background-color: yellow;}
+
+ul:first-of-type li:last-child a {
+    background-color: purple;}  
+
+ol:first-of-type li:nth-child(2) { color:blue;}
+ol:first-of-type li:nth-child(3) { color:rgb(187, 3, 3);}
+
